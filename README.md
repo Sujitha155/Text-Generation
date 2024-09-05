@@ -35,10 +35,24 @@ pip install transformers torch
 # Parameters
 
 • Prompt: The initial text input for the model to generate text from.
+
 • Max Length: The maximum length of the generated sequence.
+
 • Num Beams: Number of beams used in beam search to generate diverse outputs.
+
 • No Repeat N-Gram Size: Prevents the repetition of n-grams to enhance text coherence.
 
 # Example Output
 
 The model can generate various types of content based on the input prompt.
+
+# Requirements
+
+# • transformers: 
+
+Hugging Face's library for state-of-the-art NLP models.
+
+# • torch: 
+
+PyTorch library for tensor computations.
+
